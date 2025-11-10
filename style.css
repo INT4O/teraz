@@ -1,0 +1,195 @@
+body {
+  background-color: #0e100f;
+  color: #fffce1;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+header {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  gap: 10%;
+}
+aside {
+  flex-grow: 1;
+}
+.logo {
+  flex-basis: 418px;
+  gap: 10%;
+  
+}
+.logowanie {
+  display: flex;
+  flex-basis: 10%;
+  margin-top: 20px;
+  gap: 20px;
+  
+}
+.singin {
+  font-weight: bold;
+  font-size: 1.1em;
+  
+}
+.test{
+  display: flex;
+  height: 24px;
+  gap: 20px;
+  
+}
+
+.material-symbols-outlined {
+  font-size: 10px;
+}
+
+.logowanie1 {
+  display: flex;
+  gap: 5px;
+  text-decoration: none;
+  color: #fffce1;
+  
+}
+
+nav {
+  padding-top: 25px;
+  position: sticky;
+  
+  top: 0;
+  height: 847px;
+  flex-basis: 418px;
+  overflow-y: scroll;
+}
+
+nav::-webkit-scrollbar {
+  width: 13px;
+  height: 8px;
+}
+
+nav::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
+
+nav::-webkit-scrollbar-thumb {
+  background-color: #8f8f8f;
+  border-radius: 10px;
+  border: 2px solid #2c2c2c;
+}
+
+nav::-webkit-scrollbar-thumb:hover {
+  background-color: #c0c0c0;
+}
+
+.kobieta {
+  text-decoration: underline;
+  padding: 30px;
+  color: rgb(89, 211, 115);
+  font-size: 35px;
+}
+
+.mezczyzna {
+  font-size: 35px;
+  padding: 30px;
+  text-decoration: none;
+  color: #fffce1;
+}
+
+.kolumna {
+  position: sticky;
+}
+.ubrania {
+  text-decoration: none;
+  color: #fffce1;
+  padding: 10px;
+  border-top: 1px solid #8f8f8f;
+  display: block;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Roboto", sans-serif;
+}
+b {
+  padding: 5px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lewy {
+  flex-basis: 50%;
+  flex-wrap: wrap;
+}
+
+.zdj1 {
+  height: 550px;
+  margin-left: 190px;
+  margin-top: 600px;
+  flex-wrap: wrap;
+}
+.zdj {
+  height: 650px;
+  margin-left: 70px;
+  margin-top: 67px;
+}
+
+.opis {
+  margin-left: 70px;
+  font-size: 25px;
+}
+.opis1 {
+  color: #fffce1;
+  text-decoration: none;
+}
+.opis2 {
+  margin-left: 190px;
+  font-size: 25px;
+}
+
+footer {
+  color: #0e100f;
+  flex-basis: 100%;
+  background-color: #fffce1;
+  height: 200px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+h2{
+  font-weight: bold;
+}
+.email{
+  border: none;
+  border-bottom: 1px solid #8f8f8f;
+  padding: 5px;
+  font-size: 25px;
+  width: 400px;
+  background-color: #fffce1;
+  
+}
+.email:focus{
+  border-color: rgb(89, 211, 115);
+}
+.newsletter{
+  flex-basis: 50%;
+  font-family: Roboto Slab, serif;
+}
+.CODE{
+  flex-basis: 50%;
+  justify-content: center;
+  float: right;
+font-family: Roboto Slab, serif;
+}
+.submit{
+  border: none;
+  background-color: #fffce1;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.email:hover{
+  border-color: rgb(89, 211, 115);
+}
+
+

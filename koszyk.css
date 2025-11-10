@@ -1,0 +1,110 @@
+body{
+background-color: #0e100f;
+font-family: "Roboto", sans-serif;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+color: #fffce1;
+margin: 0 auto;
+}
+header{
+    flex-basis: 100%;
+}
+main{
+    flex-basis: 56%;
+    
+}
+aside{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    justify-content: center;
+    
+    
+}
+h1{
+    margin-left: 120px;
+}
+.zakup{
+    display: flex;
+    flex-direction: row;
+}
+.czapka{
+    height: 210px;
+    margin-left: 120px;
+}
+
+p{
+    color: #fffce1be;
+    padding: 5px;
+    
+}
+h2{
+    padding: 5px;
+}
+select{
+    margin-top: 0px;
+    margin: 5px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.prawy{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: right;
+    
+    
+}
+.gora  {
+    display: flex;
+    flex-basis: 10%;
+    align-items: center;
+    justify-content: right;
+    gap: 5px;
+    padding: 10px;
+}
+.dol{
+    display: flex;
+    flex-basis: 90%;
+    align-items: end;
+    justify-content: right;
+    padding: 10px;
+}
+
+
+.left {
+    margin-left: 190px;
+    flex-basis: 50%;
+}
+
+.right{
+    
+    flex-basis: 50%;
+}
+
+input[type="button"]{
+    color: rgb(89, 211, 115);
+    background-color: #fffce1;
+    border-radius: 10px;
+    padding: 20px 60px 20px 60px;
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: 40px;
+    font-weight: 600;
+
+}
+
+input[type="button"]:hover{
+    background-color: #0e100f;
+}
+
+footer{
+    flex-basis: 100%;
+   
+}
